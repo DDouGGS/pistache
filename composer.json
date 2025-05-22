@@ -1,0 +1,22 @@
+{
+    "name": "ddouggs/pistache",
+    "description": "Framework mvc para PHP",
+    "type": "project",
+    "license": "gpl-3.0",
+    "authors": [
+        {
+            "name": "Dougg TI",
+            "email": "ti.dougg@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ddouggs\\pistache\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
